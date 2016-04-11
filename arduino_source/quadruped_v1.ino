@@ -15,7 +15,7 @@
  *  module from a sunfounder.com sensor kit. The project also uses a HC-06
  *  bluetooth module to send and receive data from the robot.
  * ----------------------------------------------------------------------------- 
- *  Orignial program by panerqiang@sunfounder.com for 
+ *  Original program by panerqiang@sunfounder.com for 
  *  Remote Control Crawling Robot @ sunfounder.com 1/27/2015:
  *  http://www.sunfounder.com/learn/category/Quadruped-Crawling-Robot-Kit-for-Arduino.html
  *  
@@ -27,7 +27,7 @@
  *    -Add IR obstacle module (from sunfounder sensor kit) (pin 17)
  *    -Add HC-06 bluetooth module to Serial1 (pins 18 an 19)
  *    -Moved last servo from pin 13 to pin 14 to avoid pin 13 LED conflict
- *    -Replace demo code in loop and integrate sonar/IR data for movement
+ *    -Replace demo code in loop and integrate 3 operating modes: demo, remote control, and auto.
  * ---------------------------------------------------------------------------*/
 
 
